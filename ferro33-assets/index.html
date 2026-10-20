@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ferro 33 hair club – Asset-Vorschau</title>
+<link rel="icon" href="logo/favicon/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="logo/favicon/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="logo/favicon/favicon-180.png">
+<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Saira:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ferro-black:#0B0C0E; --ferro-graphite:#1A1D22; --ferro-white:#F4F5F7;
+    --ferro-chrome:#8E959E; --ferro-neon:#1EB8F5;   --ferro-led:#1F5BFF;
+    --font-display:"Michroma", sans-serif; --font-body:"Saira", sans-serif;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--ferro-black); color:var(--ferro-white); font-family:var(--font-body); font-size:17px; line-height:1.6; }
+  h2 { font-family:var(--font-display); font-weight:400; font-size:clamp(1.2rem,3vw,1.8rem); letter-spacing:.06em; margin:0 0 12px; }
+  .eyebrow { font-family:var(--font-display); font-size:.7rem; letter-spacing:.25em; color:var(--ferro-neon); text-transform:uppercase; }
+
+  .ferro-nav { position:sticky; top:0; z-index:10; padding:18px 6vw; display:flex; justify-content:space-between; align-items:center;
+    background:rgb(11 12 14 / .85); backdrop-filter:blur(10px); border-bottom:1px solid rgb(30 184 245 / .35); }
+  .ferro-nav a.link { color:var(--ferro-chrome); text-decoration:none; font-family:var(--font-display); font-size:.7rem; letter-spacing:.15em; }
+
+  .ferro-hero { position:relative; min-height:88vh; display:grid; align-items:center; overflow:hidden; }
+  .ferro-hero__bg { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:70% center; }
+  .ferro-hero__haze { position:absolute; inset:0;
+    background:linear-gradient(90deg, var(--ferro-black) 0%, rgb(11 12 14 / .75) 40%, transparent 75%),
+               radial-gradient(60% 50% at 20% 100%, rgb(31 91 255 / .25), transparent 70%); }
+  .ferro-hero__content { position:relative; max-width:560px; padding:0 6vw; }
+  .ferro-hero__content img { width:min(420px,100%); height:auto; }
+  .ferro-hero__content p { color:var(--ferro-chrome); margin:28px 0; }
+  .ferro-btn { display:inline-block; padding:14px 26px; border:1.5px solid var(--ferro-neon); border-radius:999px;
+    color:var(--ferro-white); text-decoration:none; font-family:var(--font-display); font-size:.75rem; letter-spacing:.12em;
+    box-shadow:0 0 24px rgb(30 184 245 / .35), inset 0 0 12px rgb(30 184 245 / .2); transition:.25s; }
+  .ferro-btn:hover { background:var(--ferro-neon); color:var(--ferro-black); }
+
+  .ferro-lamella { height:64px; background:repeating-linear-gradient(180deg, var(--ferro-white) 0 6px, var(--ferro-black) 6px 14px);
+    -webkit-mask:linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent); mask:linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent); }
+
+  .ferro-textured { position:relative; isolation:isolate; }
+  .ferro-textured::before { content:""; position:absolute; inset:0; z-index:-1; opacity:.18;
+    background:url(web/ferro33-textur-lamellen.webp) center/cover; }
+
+  .section { padding:90px 6vw; }
+  .ferro-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; margin-top:36px; }
+  .ferro-card { background:var(--ferro-graphite); border-radius:18px; overflow:hidden; border:1px solid #ffffff10; transition:border-color .3s, box-shadow .3s; }
+  .ferro-card:hover { border-color:var(--ferro-neon); box-shadow:0 0 32px rgb(30 184 245 / .25); }
+  .ferro-card img { width:100%; aspect-ratio:1; object-fit:cover; display:block; }
+  .ferro-card h3 { font-family:var(--font-display); font-weight:400; font-size:1rem; margin:20px 20px 6px; }
+  .ferro-card p { color:var(--ferro-chrome); margin:0 20px; }
+  .ferro-card span { display:block; margin:14px 20px 22px; color:var(--ferro-neon); font-weight:600; }
+
+  .split { display:grid; grid-template-columns:1.2fr 1fr; gap:48px; align-items:center; }
+  .split img { width:100%; border-radius:18px; display:block; }
+  .light { background:var(--ferro-white); color:var(--ferro-black); }
+  .light p { color:#3a3f46; }
+  blockquote { margin:24px 0 0; padding-left:18px; border-left:2px solid var(--ferro-neon); color:var(--ferro-white); font-size:1.05rem; }
+  blockquote cite { display:block; margin-top:8px; color:var(--ferro-chrome); font-style:normal; font-size:.85rem; }
+
+  .palette { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:14px; margin-top:30px; }
+  .swatch { border-radius:14px; padding:70px 14px 14px; border:1px solid #ffffff18; font-size:.8rem; }
+  .logos { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px; margin-top:30px; }
+  .logos div { border-radius:14px; padding:28px; display:grid; place-items:center; min-height:200px; border:1px solid #ffffff18; }
+  .logos img { max-width:100%; max-height:240px; }
+  footer { padding:60px 6vw; border-top:1px solid rgb(30 184 245 / .35); color:var(--ferro-chrome); display:flex; gap:24px; flex-wrap:wrap; justify-content:space-between; align-items:center; }
+  @media (max-width:760px) { .split { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<nav class="ferro-nav">
+  <a href="#"><img src="logo/svg/ferro33-wordmark-horizontal-transparent-white.svg" alt="Ferro 33 hair club" height="26"></a>
+  <a class="link" href="#leistungen">LEISTUNGEN</a>
+</nav>
+
+<section class="ferro-hero">
+  <img src="web/ferro33-banner-hero.webp" alt="" class="ferro-hero__bg">
+  <div class="ferro-hero__haze"></div>
+  <div class="ferro-hero__content">
+    <img src="logo/svg/ferro33-logo-primary-transparent-white.svg" alt="Ferro 33 hair club – Das Beste vom Besten">
+    <p>Ohne Termin. Acht Stühle. Kaum Wartezeit.<br>Mainzer Str. 2A, 67547 Worms.</p>
+    <a class="ferro-btn" href="#leistungen">LEISTUNGEN &amp; PREISE</a>
+  </div>
+</section>
+
+<div class="ferro-lamella" aria-hidden="true"></div>
+
+<section id="leistungen" class="section ferro-textured">
+  <span class="eyebrow">Leistungen</span>
+  <h2>Was du bekommst. Jedes Mal.</h2>
+  <div class="ferro-cards">
+    <article class="ferro-card">
+      <img src="web/ferro33-hero-haarschnitt-1x1.webp" alt="Präziser Skin Fade mit der Maschine">
+      <h3>Haarschnitt</h3><p>Schneiden, waschen, föhnen, stylen</p><span>20 €</span>
+    </article>
+    <article class="ferro-card">
+      <img src="web/ferro33-hero-bart-rasur-1x1.webp" alt="Bartrasur mit dem Rasiermesser">
+      <h3>Bart &amp; Rasur</h3><p>Trimmen, Konturen, Rasiermesser, Färben</p><span>ab 10 €</span>
+    </article>
+    <article class="ferro-card">
+      <img src="web/ferro33-hero-dampf-maske-1x1.webp" alt="Heißes Tuch und Dampf im Barberstuhl">
+      <h3>Dampf &amp; Maske</h3><p>Das Winter-Ritual zum Abschalten</p><span>Saison</span>
+    </article>
+  </div>
+</section>
+
+<section class="section split">
+  <img src="web/ferro33-action-kontur.webp" alt="Konturenschnitt mit dem Trimmer">
+  <div>
+    <span class="eyebrow">Präzision</span>
+    <h2>Jeder der Jungs schneidet gleich gut.</h2>
+    <p style="color:var(--ferro-chrome)">Acht Barber, ein Standard. Egal, wer heute deinen Stuhl dreht – Fade, Kontur und Bart sitzen.</p>
+  </div>
+</section>
+
+<section class="section split light">
+  <div>
+    <span class="eyebrow" style="color:#0a7fb0">Handwerk</span>
+    <h2>Werkzeug, das man ernst nimmt.</h2>
+    <p>Maschine, Messer, Pinsel, heißes Tuch. Saubere Arbeit an einem sauberen Platz.</p>
+  </div>
+  <img src="web/ferro33-detail-werkzeug.webp" alt="Barber-Werkzeug auf weißem Waschtisch">
+</section>
+
+<section class="section split">
+  <img src="web/ferro33-lifestyle-nacken.webp" alt="Barber pinselt die letzten Haare vom Nacken">
+  <div>
+    <span class="eyebrow">Stammkunden</span>
+    <h2>Man kennt sich.</h2>
+    <blockquote>„Wichtig ist, dass es nach dem Schneiden nicht am Hals juckt. Das war nicht der Fall. Ein super Service.“<cite>Google-Bewertung</cite></blockquote>
+  </div>
+</section>
+
+<div class="ferro-lamella" aria-hidden="true"></div>
+
+<section class="section">
+  <span class="eyebrow">Brand Kit</span>
+  <h2>Club Noir Neon</h2>
+  <div class="palette">
+    <div class="swatch" style="background:#0B0C0E">Club Black<br>#0B0C0E</div>
+    <div class="swatch" style="background:#1A1D22">Lack-Graphit<br>#1A1D22</div>
+    <div class="swatch" style="background:#F4F5F7;color:#0B0C0E">Lamellen-Weiß<br>#F4F5F7</div>
+    <div class="swatch" style="background:#8E959E;color:#0B0C0E">Chrom-Grau<br>#8E959E</div>
+    <div class="swatch" style="background:#1EB8F5;color:#0B0C0E">Ferro Neon<br>#1EB8F5</div>
+    <div class="swatch" style="background:#1F5BFF">LED-Blau<br>#1F5BFF</div>
+  </div>
+  <div class="logos">
+    <div style="background:#fff"><img src="logo/svg/ferro33-logo-primary-on-white.svg" alt="Primary Logo auf Weiß"></div>
+    <div style="background:#0B0C0E"><img src="logo/svg/ferro33-logo-stacked-white-on-black.svg" alt="Stacked Logo"></div>
+    <div style="background:#0B0C0E"><img src="logo/svg/ferro33-wordmark-horizontal-neon.svg" alt="Wordmark Neon"></div>
+    <div style="background:#1A1D22"><img src="logo/svg/ferro33-monogram-white-on-black.svg" alt="Monogramm 33" style="width:140px"></div>
+  </div>
+</section>
+
+<footer>
+  <img src="logo/svg/ferro33-wordmark-horizontal-transparent-white.svg" alt="Ferro 33 hair club" height="22">
+  <span>Mainzer Str. 2A · 67547 Worms · ohne Termin</span>
+</footer>
+</body>
+</html>
