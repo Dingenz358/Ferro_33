@@ -55,7 +55,7 @@ Abstract architectural texture filling the whole frame: glossy black horizontal 
 
 ## Logo (Vektor, 0 Credits)
 
-- `logo/build_logo.py` baut alle Varianten reproduzierbar: monolineare Glyphen mit runden Enden (wie die Leuchtschrift am Laden), Claim „DAS BESTE VOM BESTEN“ in Michroma (in Pfade umgewandelt), ®-Zeichen, Barber-Profil per potrace vom Pylon-Schild vektorisiert (`logo/src/barber-profile.svg`).
+- `logo/build_logo.py` baut alle Varianten reproduzierbar: monolineare Glyphen mit runden Enden (wie die Leuchtschrift am Laden), Claim „DAS BESTE VOM BESTEN“ in Michroma (in Pfade umgewandelt), ®-Zeichen, Barber-Profil per potrace vom Logo-Foto vektorisiert (`logo/src/barber-profile.svg`).
 - Lockups: `logo-primary` (Bannerschild), `logo-stacked` (Pylon mit Profil), `wordmark-horizontal` (Fassade), `monogram` (33, Favicon/Avatar), `icon-barber`.
 - Farbvarianten: `ink` (schwarz, transparent), `on-white`, `white-on-black`, `transparent-white`, `neon`.
 - `logo/png/` = 2000 px PNG-Exporte, `logo/favicon/` = favicon.svg/.ico + 16–512 px.
