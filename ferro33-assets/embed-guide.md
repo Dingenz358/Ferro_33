@@ -46,7 +46,7 @@ Das Banner hat links freie Fläche für die Headline.
   <div class="ferro-hero__haze"></div>
   <div class="ferro-hero__content">
     <img src="ferro33-assets/logo/svg/ferro33-logo-primary-transparent-white.svg" alt="Ferro 33 hair club – Das Beste vom Besten" width="420">
-    <p>Ohne Termin. 8 Stühle. Kaum Wartezeit. Mainzer Str. 2A, Worms.</p>
+    <p>Komm ohne Termin vorbei. Bei acht Stühlen ist die Wartezeit meist kurz. Mainzer Str. 2A, Worms.</p>
     <a class="ferro-btn" href="#leistungen">Leistungen & Preise</a>
   </div>
 </section>
@@ -74,11 +74,11 @@ Das Banner hat links freie Fläche für die Headline.
   </article>
   <article class="ferro-card">
     <img src="ferro33-assets/web/ferro33-hero-bart-rasur-1x1.webp" alt="Bartrasur mit dem Rasiermesser">
-    <h3>Bart & Rasur</h3><p>Trimmen, Konturen, Rasiermesser, Färben</p><span>ab 10 €</span>
+    <h3>Bart & Rasur</h3><p>Bart schneiden, Rasur mit dem Messer, Bart färben</p><span>je 10 €</span>
   </article>
   <article class="ferro-card">
     <img src="ferro33-assets/web/ferro33-hero-dampf-maske-1x1.webp" alt="Heißes Tuch und Dampf im Barberstuhl">
-    <h3>Dampf & Maske</h3><p>Das Winter-Ritual zum Abschalten</p><span>Saison</span>
+    <h3>Dampf & Maske</h3><p>Gesichtspflege mit Dampfmaschine und Maske</p><span>im Winter</span>
   </article>
 </section>
 ```
@@ -117,7 +117,7 @@ Das Banner hat links freie Fläche für die Headline.
 
 | Bild | Wofür |
 | --- | --- |
-| `web/ferro33-action-kontur.webp` | „Präzision“-Abschnitt, Konturenschnitt |
-| `web/ferro33-detail-werkzeug.webp` | „Unser Handwerk“, heller Abschnitt (weißer Waschtisch-Look) |
-| `web/ferro33-lifestyle-nacken.webp` | Über uns / Bewertungen („Es juckt danach nichts am Hals“) |
+| `web/ferro33-action-kontur.webp` | Abschnitt zum Konturenschnitt |
+| `web/ferro33-detail-werkzeug.webp` | heller Abschnitt mit Zusatzleistungen (weißer Waschtisch) |
+| `web/ferro33-lifestyle-nacken.webp` | Über uns oder Bewertungen |
 | `web/ferro33-hero-haarschnitt-16x9.webp`, `…dampf-maske-16x9.webp` | breite Abschnittsbilder |

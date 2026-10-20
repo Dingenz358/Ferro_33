@@ -4,7 +4,7 @@
 Ferro 33 hair club
 
 **Company blurb**
-Ferro 33 ist der Hair Club in Worms – seit Jahren das Beste vom Besten. Komm ohne Termin, nimm Platz an einem von acht Stühlen und lass dir von einem eingespielten Team einen Schnitt, eine Rasur oder einen Bart machen, der jedes Mal sitzt. Gute Musik, ein kaltes Getränk, und beim Gehen hilft dir jemand in die Jacke.
+Ferro 33 hair club ist ein Herrenfriseur in Worms. Du kommst ohne Termin und bist bei acht Stühlen meist schnell dran. Viele Kunden sind seit Jahren hier, weil im Team alle gleich gut schneiden, und beim Gehen hilft dir jemand in die Jacke.
 
 **Design system name**
 Club Noir Neon
@@ -16,6 +16,6 @@ Club Noir Neon
 - Signature-Elemente: horizontale weiß-schwarze Lamellenstreifen (wie die Spiegelsäulen im Laden), dünne neonblaue LED-Kanten an Karten und Navigation, Hochglanzschwarz.
 - Logo: monolinearer, runder Schriftzug „ferro 33®“ / „hair club“ mit Claim „DAS BESTE VOM BESTEN“, plus Barber-Profil als Icon. Logo nie neu setzen, nur die gelieferten SVGs verwenden.
 - Do: viel Schwarz und Weißraum, Neon nur als Licht (max. ~10 % der Fläche), Fotos großformatig und dunkel, Preise klar und groß („Haarschnitt 20 €“), „Ohne Termin“ prominent.
-- Do: Vertrauen über echte Stimmen zeigen – Stammkunden seit Jahren, kurze Wartezeit, freundliches Team.
+- Do: Bewertungen nur wörtlich zitieren; nichts erfinden oder umformulieren.
 - Don't: kein Vintage-Barber-Kitsch – keine Barber-Poles, kein Rot-Weiß-Blau, keine Totenköpfe, kein Holz/Leder/Gold, keine Schnörkel-Schriften.
 - Don't: keine Neon-Farbe für Fließtext, keine bunten Verläufe, keine zusätzlichen Akzentfarben.
